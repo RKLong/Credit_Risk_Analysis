@@ -20,31 +20,31 @@ For each model or algorithm, its corresponding Balanced Accuracy Score, Confusio
 ## SMOTE Oversampling Algorithm
 ![SMOTE_Oversampling_Algorithm](resources/SMOTE.png)
 * The balanced accuracy score is 65%.
-* The precision score for the high risk category is 1%, recall score is 61% and an F1 score of 2%.
+* The precision score for the high-risk category is 1%, recall score is 61% and an F1 score of 2%.
 * The precision score is at 100%, recall score is at 69% and an F1 score of 81% for the low-risk category.
 
 ## Cluster Centroids Algorithm
 ![Cluster_Centroids_Algorithm](resources/CCA.png)
 * The balance accuracy score is 54%. Among the six models, this is the lowest balance accuracy score.
-* The precision score for the high risk category is 1%, recall score is 69% and an F1 score of 1%.
+* The precision score for the high-risk category is 1%, recall score is 69% and an F1 score of 1%.
 * The precision score is at 100%, recall score is at 40% and an F1 score of 57% for the low-risk category.
 
 ## SMOTEENN Algorithm
 ![SMOTEENN_Algorithm](resources/SMOTEENN.png)
 * The balance accuracy score is 66%.
-* The precision score for the high risk category is 1%, recall score is 75% and an F1 score of 2%.
+* The precision score for the high-risk category is 1%, recall score is 75% and an F1 score of 2%.
 * The precision score is at 100%, recall score is at 56% and an F1 score of 72% for the low-risk category.
 
 ## BalancedRandomForestClassifier
 ![BalancedRandomForestClassifie](resources/BRFC.png)
 * The balanced accuracy score is 79%. Compared to the first four algorithms, this one produced a better balanced accuracy score.
-* The precision score for the high risk category is 3%, recall score is 70% and an F1 score of 6%.
+* The precision score for the high-risk category is 3%, recall score is 70% and an F1 score of 6%.
 * The precision score is at 100%, recall score is at 87% and an F1 score of 93% for the low-risk category.
 
 ## EasyEnsembleClassifier
 ![EasyEnsembleClassifier](resources/EEC.png)
 * The balanced accuracy score is 93%, which is the highest of all six models.
-* The precision score for the high risk category is 9%, recall score is 92% and an F1 score of 16%.
+* The precision score for the high-risk category is 9%, recall score is 92% and an F1 score of 16%.
 * The precision score is at 100%, recall score is at 94% and an F1 score of 97% for the low-risk category.
 
 # Summary
@@ -56,17 +56,17 @@ The accuracy score tells us how well the model performs in general. The models/a
 * Balanced Random Forest Classifying (79%)
 * SMOTEENN Sampling (66%)
 
-Looking through the different models, we look at the the ones that scored the highest for recall rate for high-risk loans.
+Looking through the different models, we look at the the ones that scored the highest for recall rate for high credit risks.
 * Easy Ensemble Classifier (92%)
 * SMOTEENN Sampling (75%)
 * Balanced Random Forest Classifier (70%)
 
-Another important statistic to look at when comparing the models is the recall rate for low risk loans. This score in this category shows how many low risk loans are flagged as high risk. Looking through the different models, the ones that scored the highest were:
+Another important statistic to look at when comparing the models is the recall rate for low credit risks. This score in this category shows how manylow credits risk (individulas) are flagged as high risk. Looking through the different models, the ones that scored the highest were:
 * Easy Ensemble Classifier (94%)
 * Balanced Random Forest Classifying (100%)
 * SMOTE Oversampling (69%)
 
-It appears that the Easy Ensemble Classifying Model had the best balance of all the models because of it's high accuracy score and good balance of recall scores for both high and low risk loans.
+It appears that the Easy Ensemble Classifying Model had the best balance of all the models for predicting credit risk because of it's high accuracy score and good balance of recall scores for both high and low risk loans.
 
 
 
