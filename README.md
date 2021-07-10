@@ -61,7 +61,7 @@ Looking through the different models, we look at the the ones that scored the hi
 * SMOTEENN Sampling (75%)
 * Balanced Random Forest Classifier (70%)
 
-Another important statistic to look at when comparing the models is the recall rate for low credit risks. This score in this category shows how manylow credits risk (individulas) are flagged as high risk. Looking through the different models, the ones that scored the highest were:
+Another important statistic to look at when comparing the models is the recall rate for low credit risks. This score in this category shows how many low-risk credit (individuals) are flagged as high risk. Looking through the different models, the ones that scored the highest were:
 * Easy Ensemble Classifier (94%)
 * Balanced Random Forest Classifying (100%)
 * SMOTE Oversampling (69%)
