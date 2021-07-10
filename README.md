@@ -66,7 +66,7 @@ Another important statistic to look at when comparing the models is the recall r
 * Balanced Random Forest Classifying (100%)
 * SMOTE Oversampling (69%)
 
-It appears that the Easy Ensemble Classifying Model had the best balance of all the models for predicting credit risk because of it's high accuracy score and good balance of recall scores for both high and low risk loans.
+It looks like the Easy Ensemble Classifying Model has the best balance of all the models for predicting credit risk because of it's high accuracy score and good balance of recall scores for both high and low risk loans.
 
 
 
