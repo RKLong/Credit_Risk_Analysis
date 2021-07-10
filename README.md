@@ -8,42 +8,45 @@ Finally, we need to evaluate the performance of these models and make a written 
 
 
 # Results
-For each model or algorithm, its corresponding Balanced Accuracy Score, Confusion Matrix and Classification Report is presented, along with a brief report of what is contained in the three. the values in the report are expressed in percentages, having 2 significant figures when possible and no decimals.
+For each model or algorithm, its corresponding Balanced Accuracy Score, Confusion Matrix and Classification Report is presented, along with a brief summary of what is contained in the three reports. The values in the summary are expressed in percentages, having 2 significant figures when possible and no decimals.
 
 ## Naive Random Oversampling Algorithm
 ![Naive_Random_Oversampling_Algorithm](resources/NROA.png)
-* Blah
-* Blah
-* Blah
+* The balanced accuracy score for this algorithm is 64%.
+* The precision score for the high-risk category is 1%, recall score is 66% and an F1 score of 2%  
+* The precision score is at 100%, recall score is at 62% and an F1 score of 76% for the low-risk category.
 
 ## SMOTE Oversampling Algorithm
 ![SMOTE_Oversampling_Algorithm](resources/SMOTE.png)
-* Blah
-* Blah
-* Blah
+* The balanced accuracy score is 65%.
+* The precision score for the high risk category is 1%, recall score is 61% and an F1 score of 2%.
+* The precision score is at 100%, recall score is at 69% and an F1 score of 81% for the low-risk category.
+
 
 ## Cluster Centroids Algorithm
 ![Cluster_Centroids_Algorithm](resources/CCA.png)
-* Blah
-* Blah
-* Blah
+* The balance accuracy score is 54%.
+* The precision score for the high risk category is 1%, recall score is 69% and an F1 score of 1%.
+* The precision score is at 100%, recall score is at 40% and an F1 score of 57% for the low-risk category.
 
 ## SMOTEENN Algorithm
 ![SMOTEENN_Algorithm](resources/SMOTEENN.png)
-* Blah
-* Blah
-* Blah
+* The balance accuracy score is 66%.
+* The precision score for the high risk category is 1%, recall score is 75% and an F1 score of 2%.
+* The precision score is at 100%, recall score is at 56% and an F1 score of 72% for the low-risk category.
 
 ## BalancedRandomForestClassifier
 ![BalancedRandomForestClassifie](resources/BRFC.png)
-* Blah
-* Blah
-* Blah
+* The balanced accuracy score is 79%
+* The precision score for the high risk category is 3%, recall score is 70% and an F1 score of 6%.
+* The precision score is at 100%, recall score is at 87% and an F1 score of 93% for the low-risk category.
 
 ## EasyEnsembleClassifier
 ![EasyEnsembleClassifier](resources/EEC.png)
-* Blah
-* Blah
-* Blah
+* The balanced accuracy score is 93%
+* The precision score for the high risk category is 9%, recall score is 92% and an F1 score of 16%.
+* The precision score is at 100%, recall score is at 94% and an F1 score of 97% for the low-risk category.
+
+
 
 # Summary
