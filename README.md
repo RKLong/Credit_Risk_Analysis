@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 UCB Challenge: Use skills in data preparation, statistical reasoning, and machine learning snd apply this in evaluating credit card risk while using imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
  
-# Overview of the Ananlysis 
+# Overview of the Analysis 
 With the dataset given to us from Lending Club, a peer-to-peer lending services company, we were given the task to evaluate credit card risk. We utilized four different algorithms in our methodology for sampling the data. We oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, used a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. We also used the BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. 
 
 Finally, we need to evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
