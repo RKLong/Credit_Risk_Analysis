@@ -29,7 +29,7 @@ For each model or algorithm, its corresponding Balanced Accuracy Score, Confusio
 * Blah
 
 ## SMOTEENN Algorithm
-![SMOTEENN_Algorithm](resources/SMOTEEN.png)
+![SMOTEENN_Algorithm](resources/SMOTEENN.png)
 * Blah
 * Blah
 * Blah
